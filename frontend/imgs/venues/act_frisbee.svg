@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a1a3a"/>
+      <stop offset="100%" stop-color="#6a3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <circle cx="300" cy="205" r="92" fill="none" stroke="#d0a0f0" stroke-width="16" opacity="0.5"/>
+                 <circle cx="300" cy="205" r="60" fill="none" stroke="#d0a0f0" stroke-width="6" opacity="0.35"/><circle cx="470" cy="105" r="46" fill="#d0a0f0" opacity="0.55"/>
+  <text x="40" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#ffffff" opacity="0.96">飞盘新人局名额</text>
+  <text x="40" y="366" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#ffffff" opacity="0.72">含教练 2 小时带练</text>
+  <text x="560" y="46" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#ffffff" opacity="0.85">去野 QuYe</text>
+</svg>

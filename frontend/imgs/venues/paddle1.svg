@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#062a3a"/>
+      <stop offset="100%" stop-color="#1a6a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <path d="M0 305 Q150 275 300 305 T600 305 L600 400 L0 400 Z" fill="#8ad8f0" opacity="0.40"/>
+                <path d="M0 335 Q150 310 300 335 T600 335 L600 400 L0 400 Z" fill="#8ad8f0" opacity="0.55"/><circle cx="470" cy="105" r="46" fill="#8ad8f0" opacity="0.55"/>
+  <text x="40" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#ffffff" opacity="0.96">千岛湖桨板俱乐部</text>
+  <text x="40" y="366" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#ffffff" opacity="0.72">日落桨板 · 装备齐全</text>
+  <text x="560" y="46" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#ffffff" opacity="0.85">去野 QuYe</text>
+</svg>

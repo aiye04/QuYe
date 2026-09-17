@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a1a1a"/>
+      <stop offset="100%" stop-color="#9a3a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <path d="M0 300 L120 190 L210 265 L300 150 L400 250 L480 200 L600 300 Z" fill="#f0a090" opacity="0.28"/>
+               <path d="M0 320 L160 235 L260 300 L360 220 L470 295 L600 240 L600 400 L0 400 Z" fill="#f0a090" opacity="0.45"/><circle cx="300" cy="200" r="95" fill="none" stroke="#f0a090" stroke-width="14" opacity="0.45"/>
+                <circle cx="300" cy="200" r="55" fill="none" stroke="#f0a090" stroke-width="10" opacity="0.35"/>
+  <text x="40" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#ffffff" opacity="0.96">城西滑板公园</text>
+  <text x="40" y="366" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#ffffff" opacity="0.72">碗池+街式 · 全天开放</text>
+  <text x="560" y="46" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#ffffff" opacity="0.85">去野 QuYe</text>
+</svg>

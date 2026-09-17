@@ -1,0 +1,37 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: quye
+  profiles:
+    # 本地真实配置放在 application-local.yaml（已在 .gitignore 中，不会提交）
+    active: ${SPRING_PROFILES_ACTIVE:local}
+
+  # 配置数据源信息（真实值放 application-local.yaml 或用环境变量覆盖）
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:quye}?useSSL=false&serverTimezone=Asia/Shanghai
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
+  # 配置Redis信息
+  redis:
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6379}
+    password: ${REDIS_PASSWORD:}
+    # 配置Lettuce连接池信息
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        time-between-eviction-runs: 10s
+  # 配置Jackson信息
+  jackson:
+    default-property-inclusion: non_null # JSON处理时忽略非空字段
+# 配置MyBatis-Plus信息
+mybatis-plus:
+  type-aliases-package: com.dp.entity # 别名扫描包
+  mapper-locations: classpath*:mapper/*.xml
+logging:
+  level:
+    com.dp: debug

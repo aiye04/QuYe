@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a2a1a"/>
+      <stop offset="100%" stop-color="#8a5a2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <path d="M0 300 L120 190 L210 265 L300 150 L400 250 L480 200 L600 300 Z" fill="#f0c48a" opacity="0.28"/>
+               <path d="M0 320 L160 235 L260 300 L360 220 L470 295 L600 240 L600 400 L0 400 Z" fill="#f0c48a" opacity="0.45"/><circle cx="470" cy="105" r="46" fill="#f0c48a" opacity="0.55"/><g fill="#f0c48a" opacity="0.75"><circle cx="120" cy="90" r="3.5"/><circle cx="200" cy="60" r="2.5"/>
+                <circle cx="300" cy="80" r="3"/><circle cx="380" cy="55" r="2.5"/><circle cx="540" cy="70" r="3"/>
+                <circle cx="70" cy="140" r="2.5"/><circle cx="560" cy="150" r="2.5"/></g>
+  <text x="40" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#ffffff" opacity="0.96">西湖龙井骑行路线</text>
+  <text x="40" y="366" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#ffffff" opacity="0.72">20km 轻松骑 · 拍照绝佳</text>
+  <text x="560" y="46" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#ffffff" opacity="0.85">去野 QuYe</text>
+</svg>
