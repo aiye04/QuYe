@@ -7,11 +7,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid #ff6633;
+    border-bottom: 2px solid #2e7d6f;
 }
 .header-back-btn{
     width: 10%;
-    color: #ff6633;
+    color: #2e7d6f;
     font-size: 22px;
 }
 .header-title {
@@ -48,13 +48,13 @@ input[type="radio"] + label::before {
     height: 0.7em;
     margin-right: .4em;
     border-radius: 50%;
-    border: 2px solid #F63;
+    border: 2px solid #2e7d6f;
     text-indent: .15em;
     line-height: 1; 
     padding: .2em;
 }
 input[type="radio"]:checked + label::before {
-    background-color: #F63;
+    background-color: #2e7d6f;
     background-clip: content-box;
     padding: .2em;
 }

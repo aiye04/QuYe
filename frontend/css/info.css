@@ -5,11 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid #ff6633;
+    border-bottom: 2px solid #2e7d6f;
 }
 .header-back-btn{
     width: 10%;
-    color: #ff6633;
+    color: #2e7d6f;
     font-size: 22px;
 }
 .header-title {
@@ -71,7 +71,7 @@
     color: white;
     padding: 0 2px;
     border-radius: 3px;
-    background-color: #f63;
+    background-color: #2e7d6f;
     box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.04);
 }
 
@@ -122,6 +122,9 @@
 .blog-img img {
     width: 100%;
     height: 100%;
+    object-fit: cover;        /* 按比例裁切填满，不变形 */
+    border-radius: 3px;
+    display: block;
 }
 .blog-info {
     width: 50%;
@@ -171,8 +174,8 @@
     font-size: 10px;
     line-height: 20px;
     height: 20px;
-    border: #ff6633 1px solid;
-    color: #ff6633;
+    border: #2e7d6f 1px solid;
+    color: #2e7d6f;
     border-radius: 5px;
     text-align: center;
 }
@@ -193,8 +196,17 @@
     box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
 }
+.blog-img2{
+    width: 100%;
+    aspect-ratio: 4 / 3;      /* 缩略图统一比例 */
+    overflow: hidden;
+    border-radius: 3px;
+}
 .blog-img2 img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;        /* 按比例裁切填满，不变形 */
+    display: block;
     border-radius: 3px;
 }
 .blog-title {

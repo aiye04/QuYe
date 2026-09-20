@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid #ff6633;
+    border-bottom: 2px solid #2e7d6f;
     position: fixed;
     top: 0;
     z-index: 500;
@@ -21,7 +21,7 @@
 
 .header-back-btn {
     width: 10%;
-    color: #ff6633;
+    color: #2e7d6f;
     font-size: 24px;
     font-weight: bold;
 }
@@ -192,7 +192,7 @@
 }
 
 .voucher-price {
-    color: #F63;
+    color: #2e7d6f;
     display: flex;
     align-items: center;
 }
@@ -211,7 +211,7 @@
 }
 
 .voucher-btn {
-    background-color: #ff6633;
+    background-color: #2e7d6f;
     color: white;
     font-size: 14px;
     line-height: 30px;
@@ -233,7 +233,7 @@
     background-color: #adacab;
 }
 .seckill-time{
-    color: #F63;
+    color: #2e7d6f;
 }
 .seckill-stock {
     color: #adacab;
@@ -317,4 +317,17 @@
     width: 92px;
     border-radius: 5px;
     margin-right: 5px;
+}
+/* 去野榜单标签 */
+.shop-rank .rank-badge {
+    display: inline-block;
+    width: 63px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #2e7d6f, #4f9c8d);
+    border-radius: 3px;
 }

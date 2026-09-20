@@ -11,7 +11,7 @@
 }
 .header-commit-btn{
     color: white;
-    background-color: #F63;
+    background-color: #2e7d6f;
     padding: 0 12px;
     border-radius: 15px;
 }
@@ -34,7 +34,7 @@
     line-height: 40px;
     text-align: center;
     align-items: center;
-    border: 1px dashed #3a8ee6;
+    border: 1px dashed #256b5f;
     border-radius: 5px;
     font-size: 30px;
     color: #82848a;

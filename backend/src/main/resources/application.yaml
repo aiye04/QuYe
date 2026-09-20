@@ -4,10 +4,10 @@ spring:
   application:
     name: quye
   profiles:
-    # 本地真实配置放在 application-local.yaml（已在 .gitignore 中，不会提交）
+    # 本地真实配置放在 application-local.yaml
     active: ${SPRING_PROFILES_ACTIVE:local}
 
-  # 配置数据源信息（真实值放 application-local.yaml 或用环境变量覆盖）
+  # 配置数据源信息
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:quye}?useSSL=false&serverTimezone=Asia/Shanghai
