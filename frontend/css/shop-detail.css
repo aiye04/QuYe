@@ -96,10 +96,21 @@
 .shop-images img {
     height: 106px;
     width: 145px;
+    object-fit: cover;        /* 按比例裁切填满，不拉伸变形 */
     margin-right: 3px;
     display: inline-block;
     border-radius: 7px;
     border: 1px solid #e1e1e1;
+}
+
+/* 只有一张图时铺满整行（注意每张图外层还包了一层 div） */
+.shop-images > div:only-child {
+    width: 100%;
+}
+.shop-images > div:only-child img {
+    width: 100%;
+    height: 160px;
+    margin-right: 0;
 }
 
 .shop-address {

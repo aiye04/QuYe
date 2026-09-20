@@ -123,7 +123,11 @@
             if (!data) {
               return
             }
-            data.forEach(s => s.images = s.images.split(',')[0]);
+            data.forEach(s => {
+              if (s.images) {
+                s.images = s.images.split(',')[0]
+              }
+            });
             this.shops = this.shops.concat(data);
           })
           .catch(err => {
@@ -135,7 +139,11 @@
         location.href = "/shop-list.html?type="+t.id+"&name="+t.name;
       },
       sortAndQuery(sortBy) {
+        // 切换排序：重置页码、清空列表后重新查询（否则会不断往列表后面追加）
         this.params.sortBy = sortBy;
+        this.params.current = 1;
+        this.shops = [];
+        this.isReachBottom = false;
         this.queryShops();
       },
       goBack() {
